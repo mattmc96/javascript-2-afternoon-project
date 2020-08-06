@@ -93,10 +93,15 @@ var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 
 //Code Here
 
-function evenFinder()
-
-
-
+function evenFinder(nums) {
+  let arr = [];
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] % 2 === 0) {
+      arr.push(nums[i]);
+    }
+  }
+  return arr
+}
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
@@ -121,7 +126,9 @@ var numbersArray = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];
 */
 
 //Code Here
-
+function divider(numbersArray) {
+  return numbersArray
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -131,6 +138,8 @@ var getRandomArbitrary = function () {
   return Math.floor(Math.random() * 30);
 };
 // Do not edit the code above.
+
+
 
 /* 
   var numbers = [0,3,4,5,6,7,9,14,17,24,25,26,29,30];
