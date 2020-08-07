@@ -121,7 +121,8 @@ user2.email = 'bryan.smith@devmounta.in'
 */
 
 //Code Here
-let methodCollection = { alertHello: alerts('hello') }
+var methodCollection = {}
+
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -129,7 +130,7 @@ let methodCollection = { alertHello: alerts('hello') }
 */
 
 //Code Here
-methodCollection.alertHello() = alerts('hello')
+methodCollection.alertHello = alert('hello')
 methodCollection.logHello = console.log('hello')
 /*
   Now call your alertHello and logHello methods.
@@ -137,7 +138,9 @@ methodCollection.logHello = console.log('hello')
 
 //Code Here
 methodCollection.alertHello()
-methodCollection.logHello()
+methodCollection.logHello
+
+
 ////////// PROBLEM 6 //////////
 
 /*
@@ -160,3 +163,8 @@ function makePerson(name, birthday, ssn) {
 */
 
 //Code Here
+/*function makeCard(creditCard: "cardNumber", "expirationDate", "securityCode") {
+  return brandNew.makeCard
+}
+*/
+
