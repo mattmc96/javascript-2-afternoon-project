@@ -135,6 +135,7 @@ function uniq(arr, cb) {
   return cb(newArr)
 }
 
+// for each take a callback to be executed over each element in the array
 
 
 

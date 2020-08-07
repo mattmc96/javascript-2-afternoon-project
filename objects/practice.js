@@ -15,6 +15,12 @@
 */
 
 //Code here
+var me = {
+  name: 'matt',
+  age: 24,
+}
+
+console.log(alert(me.name))
 
 ////////// PROBLEM 2 //////////
 
@@ -38,17 +44,17 @@ var favoriteThings = {
 */
 
 //Code here
-favoriteThings['car'] = 'ranger'
-favortieThings['brand'] = 'ford'
+favoriteThings.car = 'ranger'
+favoriteThings.brand = 'ford'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings.food = 'Chicken Nuggets'
 
-favoriteThings['book'] = 'Harry Potter'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -61,6 +67,13 @@ favoriteThings['book'] = 'Harry Potter'
 */
 
 //Code here
+let backPack = {}
+
+let item = 'firstPocket'
+
+backPack[item] = 'chapstick'
+backPack.color = 'black'
+
 
 /*
   After you do the above, alert your entire backPack object.
@@ -107,6 +120,7 @@ var user2 = {
 */
 
 //Code Here
+let methodCollection = { alertHello: alerts('hello') }
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -114,13 +128,15 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello() = alerts('hello')
+methodCollection.logHello = console.log('hello')
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+methodCollection.alertHello()
+methodCollection.logHello()
 ////////// PROBLEM 6 //////////
 
 /*
@@ -129,6 +145,11 @@ var user2 = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn) {
+  return newObj.makePerson
+}
+
+
 
 ////////// PROBLEM 7 //////////
 
