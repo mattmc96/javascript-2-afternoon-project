@@ -126,9 +126,15 @@ var numbersArray = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];
 */
 
 //Code Here
-function divider(numbersArray) {
-  return numbersArray
-}
+
+/*function divider(numbersArray) {
+  let arr = []
+  for (let i = 0; i <= numbersArray.length - 1; i++) {
+    if (numbersArray.[i] % 2 === 0) arr.push(numbersAraray[i])
+  }
+
+}*/
+//WHAT i COULD DO FOR NOW WILL WORK ON MORE LATER 😃
 
 
 ////////// PROBLEM 7 //////////
