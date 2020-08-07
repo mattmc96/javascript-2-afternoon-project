@@ -185,8 +185,47 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   removeItem(myGroceryList) --> [];
   addItem() --> [];
 */
+/*
+1. check if both parameters are truthy, if not return empty array
+ 2. find if the item passed in, exists in our list
+ 3. use .includes to check if item is in array, if not return list
+ 4. use a for loop to determine the index of our item 
+ 5. use splice to remove it
+ 6.return list
 
+
+
+*/
 //Code Here
+
+function removeItem(List, item) {
+  if (list && item) {
+    if (list.includes(item)) {
+      let index = null
+      for (let i = 0; i < list.length; i++) {
+        if (list[i] === item) {
+          index = i
+          break;
+        }
+      }
+      list.splice(index, 1)
+    } else {
+      return list
+    }
+  } else {
+    return []
+  }
+}
+removeItem(myGroceryList, 'chips')
+
+function addItem(List, item) {
+  if (list && item) {
+    list.push(item)
+    return list
+  } else {
+    return []
+  }
+}
 
 
 
@@ -239,7 +278,16 @@ for (var i = 0; i < num2; i++) {
 
 //Code Here
 
+function longer(arr1, arr2) {
+  console.log(arr1.length, arr2.length)
+  if (arr1.length > arr2.length) {
+    return arr1
+  } else {
+    return arr2
+  }
+}
 
+console.log(longer(arr1, arr2))
 
 /*
   As a continuation of the previous problem, write another function called 'both'.
