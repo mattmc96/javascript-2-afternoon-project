@@ -24,20 +24,31 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: 'linkin park',
+  food: 'mexican',
+  person: 'mom',
+  book: 'eloquent javascript',
+  movie: 'lord of',
+  holiday: 'halloween'
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings['car'] = 'ranger'
+favortieThings['brand'] = 'ford'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
+favoriteThings['food'] = 'Chicken Nuggets'
+
+favoriteThings['book'] = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
